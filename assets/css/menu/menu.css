@@ -1,0 +1,159 @@
+.menu__container__principal{
+    /* background: #0072C6; */
+    background: #cecece;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .color{
+    background: white;
+    width: 100%;
+    height: 5px;
+} */
+.menu__container__logo{
+    width: 33%;
+    height: auto;
+    display: flex;
+    justify-content: cen;
+}
+
+.menu__logo{
+    width: 100px;
+    margin-left: 10%;
+    margin-top: 1%
+}
+
+.menu__container__searcher{
+    width: 33%;
+    height: auto;
+    display: flex;
+}
+
+.menu__searcher{
+    color: #3E3E53;
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+}
+
+
+.menu__btn__searcher{
+    background: white;
+    width: 10%;
+    height: auto;
+    border: none;
+    border-radius: 0 15px 15px 0;
+}
+/* Color de la sección del botron de busqueda al pasar el mouse*/
+.menu__btn__searcher:hover{
+    background: #ff00dd;
+    cursor: pointer;
+}
+
+/* Color de la Lupa */
+.menu__btn__searcher:hover .material-symbols-outlined{
+    color: rgb(255, 255, 255);
+}
+
+.menu__container__btn{
+    width: 33%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+/* Caracteristicas del botón de Login */
+.menu__btn__login{
+    background: #3E3E53;
+    width: 100px;
+    height: 30px;
+    margin-right: 10%;
+    border: none;
+    border-radius: 15px;
+}
+
+.menu__spam__login{
+    color: white;
+    font-weight: 700;
+}
+
+/* Caracteristica del botón de Login al pasae el mouse */
+.menu__btn__login:hover{
+    background: #f0d;
+    cursor: pointer;
+}
+
+.menu__btn__login:hover .menu__spam__login{
+    color: white;
+}
+
+
+/* Caracteristicas resize */
+
+@media (max-width: 1000px){
+    .menu__container__logo{
+        width: 30%;
+    }
+    
+    .menu__container__searcher{
+        width: 40%;
+    }
+
+    .menu__container__btn{
+        width: 30%;
+    }
+}
+
+@media (max-width: 800px){
+    .menu__container__logo{
+        width: 30%;
+    }
+    
+    .menu__container__searcher{
+        width: 20%;
+        order: 1;
+        justify-content: end;
+    }
+
+    .menu__searcher{
+        display: none;
+    }
+
+    .menu__btn__searcher{
+        width: 30px;
+        height: 30px;
+        margin-right: 20%;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu__container__btn{
+        width: 30%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 450px){
+    .menu__container__logo{
+        width: auto;
+    }
+
+    .menu-logo{
+        margin-right: 30px;
+    }
+
+    .menu__container__searcher{
+        width: 10%;
+    }
+
+    .menu__container__btn{
+        width: 30%;
+        justify-content: end;
+    }
+}

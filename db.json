@@ -1,0 +1,102 @@
+{
+  "cosmeticos": [
+    {
+      "id": "9b579bbf-f07a-47c8-9cc5-a80cecd3541b",
+      "url": "assets/img/productos/cosmeticos/cosmetic1.jpg",
+      "categoria": "cosmeticos",
+      "nombre": "Labial Líquido Brillante, Maybelline Superstay",
+      "precio": 200,
+      "descripcion": "El nuevo labial líquido SuperStay Vinyl Ink le da a tus labios un color vinilo de larga duración. "
+    },
+    {
+      "id": "f9bda4f1-4b37-46d3-b20f-a9b7de45a121",
+      "url": "assets/img/productos/cosmeticos/cosmetic2.jpg",
+      "categoria": "cosmeticos",
+      "nombre": "Set de Maquillaje para Mujer",
+      "precio": 690,
+      "descripcion": "Kit Cosmético Completo Todo en Uno Paquete de Inicio Esencial que Incluye Paleta de Sombras de Ojos"
+    },
+    {
+      "id": "f68dd351-fecb-4430-be24-1435f988bbf0",
+      "url": "assets/img/productos/cosmeticos/cosmetic3.jpg",
+      "categoria": "cosmeticos",
+      "nombre": "JEMUON Organizador de Maquillaje",
+      "precio": 350,
+      "descripcion": "Este organizador de perfumes hecho de material acrílico de alta calidad tiene 6 niveles de bandejas ajustables. "
+    },
+    {
+      "id": "c3b8a011-2744-430d-a49d-337dff24bd6d",
+      "url": "assets/img/productos/cosmeticos/cosmetic4.jpg",
+      "categoria": "cosmeticos",
+      "nombre": "LOreal Paris Base de Maquillaje True Match",
+      "precio": 350,
+      "descripcion": "Base de maquillaje líquida con cobertura media y acabado natural que te dará un look natural perfecto. "
+    },
+    {
+      "id": "a414b531-96e0-4dc6-914d-a644029e91d2",
+      "url": "assets/img/productos/cosmeticos/cosmetic5.jpg",
+      "categoria": "cosmeticos",
+      "nombre": "ésika Set COLORFIX Labial en Barra",
+      "precio": 285,
+      "descripcion": "Set de labiales mate líquido Colorfix Liquid Tatto de larga duración. 24 horas "
+    },
+    {
+      "id": "fe8222a8-23ef-456d-b4e1-495852f69db0",
+      "url": "assets/img/productos/cosmeticos/cosmetic6.jpg",
+      "categoria": "cosmeticos",
+      "nombre": "Wet n Wild Mega Last color de labios",
+      "precio": 11000,
+      "descripcion": "Mega Last High Shine Lipstick: este exuberante lápiz labial está impregnado con mantequilla Murumuru, mantequilla de mango y aceites de semillas de girasol y sandía para nutrir los labios mientras proporciona un color de labios edificable de larga duración"
+    }
+  ],
+  "skinscare": [
+    {
+      "id": "37031d10-3810-42f0-9605-a669d4d3334a",
+      "url": "assets/img/productos/skinscare/skin1.jpg",
+      "categoria": "skinscare",
+      "nombre": "Garnier Skin Naturals Face Agua Micelar Desmaquillante",
+      "precio": 112,
+      "descripcion": "Agua micelar desmaquillante Para piel mixta a grasa Limpia sin frotar, sin sensación grasosa Micelas + Agentes Purificantes El Agua Micelar #1 de México"
+    },
+    {
+      "id": "e33d531c-a528-4f9d-a098-ec7b52fab5db",
+      "url": "assets/img/productos/skinscare/skin2.jpg",
+      "categoria": "skinscare",
+      "nombre": "L'Oreal Paris Serum Facial Anti Arrugas Acido Hialuronico",
+      "precio": 194,
+      "descripcion": "Sérum anti líneas de expresión con 1.5% de ácido hialurónico puro"
+    },
+    {
+      "id": "bbf9df4b-5e4c-4db7-b9fa-7f4f250b3901",
+      "url": "assets/img/productos/skinscare/skin3.jpg",
+      "categoria": "skinscare",
+      "nombre": "NIVEA Cellular Luminous630 Anti-Manchas Crema facial",
+      "precio": 225,
+      "descripcion": "Efecto reparador: Mientras duermes su efecto reparador ayuda a reducir visiblemente las manchas oscuras. Para una piel fresca y revitalizada cada mañana, y para una tez más uniforme y luminosa día tras día."
+    },
+    {
+      "id": "cf6ba806-2243-4699-9410-4916c712c98e",
+      "url": "assets/img/productos/skinscare/skin4.jpg",
+      "categoria": "skinscare",
+      "nombre": "FOTOSUN UV 100 Protector Solar Facial y Corporal",
+      "precio": 600,
+      "descripcion": "PROTECTOR SOLAR: Protege tu pie en todo momento, no solo cuando vas a la playa, sino también en ciudad. FOTOSUN UV 100 será tu práctico aliado para la protección diaria de tu piel contra los rayos solares."
+    },
+    {
+      "id": "ae300772-d9c0-4a17-9350-3c7d7503585e",
+      "url": "assets/img/productos/skinscare/skin5.jpg",
+      "categoria": "skinscare",
+      "nombre": "Kit Hydra Energetic, crema para hombre y roll on anti ojeras",
+      "precio": 557,
+      "descripcion": "Elimina Rasgos de ojos cansados, ojeras, rugosidad, perdida de tonicidad, tez apagada; ideal para todo tipo de piel"
+    },
+    {
+      "id": "ef7bf146-43b6-4773-abbc-709c4a684547",
+      "url": "assets/img/productos/skinscare/skin6.jpg",
+      "categoria": "skinscare",
+      "nombre": "L'Oréal Paris Kit age perfect renovacion celular",
+      "precio": 909,
+      "descripcion": "Crema antiarrugas de día, noche y ojos renovación celular Fórmula especial para piel madura (50+)"
+    }
+  ]
+}
