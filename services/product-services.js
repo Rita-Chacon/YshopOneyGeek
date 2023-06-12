@@ -1,8 +1,8 @@
 const listacosmeticos = () => 
-    fetch("http://localhost:3000/cosmeticos").then((respuesta) => respuesta.json());
+    fetch("https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/cosmeticos").then((respuesta) => respuesta.json());
 
 const listaskinscare = () => 
-    fetch("http://localhost:3000/skinscare").then((respuesta) => respuesta.json());
+    fetch("https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/skinscare").then((respuesta) => respuesta.json());
 
 const crearNuevoProducto = (id, url, categoria, nombre, precio, descripcion) => {
     
@@ -17,7 +17,7 @@ const crearNuevoProducto = (id, url, categoria, nombre, precio, descripcion) => 
     };
 
     if(categoria == "cosmeticos"){
-        return fetch("http://localhost:3000/cosmeticos", {
+        return fetch("https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/cosmeticos", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -30,7 +30,7 @@ const crearNuevoProducto = (id, url, categoria, nombre, precio, descripcion) => 
         
     }else if(categoria == "skinscare"){
         
-        return fetch("http://localhost:3000/skinscare", {
+        return fetch("https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/skinscare", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -48,13 +48,13 @@ export const eliminarProducto = async (id, categoria) => {
     
     if(categoria == "cosmeticos"){
 
-        return await fetch(`http://localhost:3000/cosmeticos/${id}`, {
+        return await fetch(`https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/cosmeticos/${id}`, {
             method: "DELETE",
         });
         
     }else if(categoria == "skinscare"){
         
-        return await fetch(`http://localhost:3000/skinscare/${id}`, {
+        return await fetch(`https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/skinscare/${id}`, {
             method: "DELETE",
         });
 
@@ -65,7 +65,7 @@ export const actualizarProducto = async (id, url, categoria, nombre, precio, des
     
     if(categoria == "cosmeticos"){
 
-        return await fetch(`http://localhost:3000/cosmeticos/${id}`, {
+        return await fetch(`https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/cosmeticos/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
@@ -77,7 +77,7 @@ export const actualizarProducto = async (id, url, categoria, nombre, precio, des
         
     }else if(categoria == "skinscare"){
         
-        return await fetch(`http://localhost:3000/skinscare/${id}`, {
+        return await fetch(`https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/skinscare/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
@@ -92,8 +92,8 @@ export const actualizarProducto = async (id, url, categoria, nombre, precio, des
 
 export const buscarProducto = async (buscar) => {
     try {
-        const cosmeticosResponse = await fetch(`http://localhost:3000/cosmeticos?nombre_like=${buscar}`);
-        const skinscareResponse = await fetch(`http://localhost:3000/skinscare?nombre_like=${buscar}`);
+        const cosmeticosResponse = await fetch(`https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/cosmeticos?nombre_like=${buscar}`);
+        const skinscareResponse = await fetch(`https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/skinscare?nombre_like=${buscar}`);
         
         const [cosmeticosProductos, skinscareProductos] = await Promise.all([cosmeticosResponse, skinscareResponse].map(resp => resp.json()));
     
@@ -113,8 +113,8 @@ export const buscarProducto = async (buscar) => {
 export const detallesProducto = async (id) =>{
     try{
 
-        const cosmeticosResponse = fetch(`http://localhost:3000/cosmeticos/${id}`);
-        const skinscareResponse = fetch(`http://localhost:3000/skinscare/${id}`);
+        const cosmeticosResponse = fetch(`https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/cosmeticos/${id}`);
+        const skinscareResponse = fetch(`https://my-json-server.typicode.com/Rita-Chacon/YshopOneyGeek/skinscare/${id}`);
 
         const [cosmeticosProducto, skinscareProducto] = await Promise.all([cosmeticosResponse, skinscareResponse]);
         
