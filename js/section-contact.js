@@ -7,7 +7,7 @@ const contenido = `<div class="contact__subcontainer">
                     <div class="contact__container__links">
                         <a href="" class="contact__link">Quiénes somos</a>
                         <a href="" class="contact__link">Política de privacidad</a>
-                        <a href="" class="contact__link">Promosiones</a>
+                        <a href="" class="contact__link">Promociones</a>
                         <a href="" class="contact__link">Nuestras tiendas</a>
                         
                         <!--REDES-->
@@ -15,7 +15,7 @@ const contenido = `<div class="contact__subcontainer">
                             <a href="#facebook"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href="#Instagram"><i class="fa-brands fa-instagram"></i></a>
                             <a href="#Twitter"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="#Github"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/Rita-Chacon/"><i class="fa-brands fa-github"></i></a>
                             <a href="#Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
                             
                             
